@@ -2,9 +2,9 @@ yarn
 git submodule update --init --recursive
 cd ./excalidraw
 yarn
-yarn build:prebuild
+yarn build
 npx react-scripts build
-yarn build:version
+yarn build
 cd ../tauri
 cargo install --path .
 cd ..
